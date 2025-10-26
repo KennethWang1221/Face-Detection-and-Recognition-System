@@ -2,6 +2,12 @@
 
 This project implements a lightweight, real-time face detection and recognition system that runs on CPU without requiring heavy deep learning frameworks. It uses ONNX-optimized SCRFD for face detection and MobileFaceNet for face recognition, making it easy to deploy without installing PyTorch, or PaddlePaddle. The system efficiently processes both images and videos, comparing detected faces against a database of known faces.
 
+1. Developed a lightweight face detection and recognition pipeline using ONNX-optimized SCRFD and MobileFaceNet models, achieving real-time performance without heavy ML frameworks
+
+2. Implemented a robust face processing system with 5-point landmark detection, affine transformation, and adaptive face alignment, enhancing recognition accuracy across diverse poses and lighting conditions
+
+3. Engineered a scalable video processing framework with parallel face tracking, CSV-based result logging, and automated face database management, supporting both real-time and batch processing workflows
+   
 ## Features
 
 - Real-time face detection using lightweight SCRFD model
